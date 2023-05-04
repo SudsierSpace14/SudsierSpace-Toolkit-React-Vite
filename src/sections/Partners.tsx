@@ -6,11 +6,6 @@ const slideInVariant = slideIn({ direction: 'up', type: 'spring' })
 
 import { motion } from 'framer-motion'
 
-const item = {
-    visible: { opacity: 1, x: 0 },
-    hidden: { opacity: 0, x: -100 },
-}
-
 export const Partners = () => {
     return (
         <section id="partners">

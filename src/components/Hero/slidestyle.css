@@ -1,0 +1,25 @@
+.swiper {
+    width: 100%;
+    margin: auto 0;
+    overflow: visible !important;
+}
+
+@media (max-width: 768px) {
+    .swiper {
+        margin: 0 100px 0 0;
+    }
+}
+
+.swiper-wrapper {
+    gap: 1em;
+}
+
+.swiper-slide {
+    text-align: right;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

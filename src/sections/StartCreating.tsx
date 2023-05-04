@@ -9,7 +9,7 @@ const Section = styled.section`
         width: 1500px;
         left: 50%;
         transform: translateX(-50%);
-        background: url("/src/assets/everything (1).jfif"), linear-gradient(247.23deg, #4af2c8 0%, #2f4cb3 100%);
+        background: url("https://th.bing.com/th/id/OIG.8jZ59vVuwKZz_LVGz9yC?pid=ImgGn"), linear-gradient(247.23deg, #4af2c8 0%, #2f4cb3 100%);
         background-position: 50% 0;
         background-blend-mode: overlay;
         -webkit-mask-image: radial-gradient(rgba(0, 0, 0, .7), transparent 70%);

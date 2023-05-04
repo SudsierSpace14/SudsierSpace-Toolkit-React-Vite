@@ -49,7 +49,7 @@ export const Blur = styled.img`
 
 export const BackgroundSpace = styled.div`
     background-position: center;
-    background-image: url('/src/assets/everything (1).jfif');
+    background-image: url('/src/assets/everything1.jfif');
     opacity: .2;
     z-index: 0;
 `

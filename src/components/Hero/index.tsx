@@ -2,7 +2,6 @@ import { Main, BackgroundSpace, Content } from './styles'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Card } from './Card'
 
-import HFerro from '../../assets/h_ferro.webp'
 import Lamp from '../../assets/hero/lamp.png'
 import Build from '../../assets/hero/build.png'
 import Check from '../../assets/hero/check.png'
@@ -46,11 +45,11 @@ export const Hero = () => {
             </Content>
 
             <div className='mt-24 z-10 md:static absolute bottom-[-550px]'>
-                <img
-                    className='mx-auto'
-                    src={HFerro}
+                {/* <img
+                    className='mx-auto w-full'
+                    src=""
                     alt="Le Gabriel Rodrigues"
-                />
+                /> */}
             </div>
 
             <BackgroundSpace className='w-full h-full absolute'></BackgroundSpace>

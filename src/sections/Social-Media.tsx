@@ -10,7 +10,7 @@ import Linkedin from '../assets/sociel-media/LinkedIn.png'
 export const SocialMedia = () => {
     return (
         <section id="social-media">
-            <h1 className='text-center my-10'>I'm in</h1>
+            <h1 className='text-center my-10'>Me encontre em</h1>
             <div className="container flex justify-center gap-8 md:justify-between items-center flex-wrap px-0 md:px-8">
                 <a href="https://www.instagram.com/sudsierspace14/" target='_blank'>
                     <motion.img

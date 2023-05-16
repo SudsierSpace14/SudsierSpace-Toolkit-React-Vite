@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 export const Partners = () => {
     return (
         <section id="partners">
-            <h1 className='text-center my-10'>Partners</h1>
+            <h1 className='text-center my-10'>Parceiros</h1>
             <div className="cointainer flex justify-around items-center flex-wrap gap-8">
                 <a href="http://mgmdigital.com.br" target="_blank">
                     <motion.img

@@ -25,10 +25,10 @@ export const StartCreating = () => {
                     SudsierSpace
                     <br />Toolkit
                 </h1>
-                <h1 className="font-JetBrains">Start creating now!</h1>
-                <h2 className="max-w-2xl">Start creating anything with we I know, from web to reality!</h2>
-                <a data-get-started="" href="/contact" className="btn bg-orange-500 button-white text-[24px]">
-                    Get Started
+                <h1 className="font-JetBrains">Começe a criar!</h1>
+                <h2 className="max-w-2xl">Desde a ideia, construção e divulgação até o infinito!</h2>
+                <a data-get-started="" href="http://mgmdigital.com.br/contato" className="btn bg-orange-500 button-white text-[24px]">
+                    Let's go!
                 </a>
             </div>
         </Section>

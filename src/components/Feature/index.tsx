@@ -11,18 +11,11 @@ import { TailwindCard } from './Tailwind'
 import { ArduinoCard } from './Arduino'
 
 import { motion } from 'framer-motion'
+import { SmallCard } from './SmallCard'
 
 // click sound effect
 
 const AstroGrid = styled.div`
-    .col-span-2 {
-        grid-column: span 2 / span 2;
-    }
-
-    .col-span-3 {
-        grid-column: span 3 / span 3;
-    }
-
     .noise-panel{
         position: relative;
         isolation: isolate;
@@ -84,7 +77,7 @@ export const FeaturesSection = () => {
         <section id="feature-section" className='flex flex-col items-center' onMouseOver={changeInfo} ref={constraintsRef}>
             <Info info={info} ref={constraintsRef} />
             <h1 className='font-JetBrains my-16 z-10 text-center'>
-                Some of what I work with
+                Ferramentas que trabalhamos
             </h1>
             <div className='container mt-10 px-10 lg:px-0'>
                 <AstroGrid className='grid min-w-0 max-w-screen-xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3'>
@@ -96,13 +89,39 @@ export const FeaturesSection = () => {
                     <div className="grid lg:col-span-2">
                         <MongodbCard />
                     </div>
-
                     <ReactCard />
                     <ExpressCard />
                     <TailwindCard />
                     <div className='grid sm:col-span-2 lg:col-span-3 bg-orange-500'>
                         <ArduinoCard />
                     </div>
+                    <div className='grid sm:col-span-2 lg:col-span-3 bg-slate-600 p-4'>
+                        <h1>Em breve</h1>
+                    </div>
+                    <SmallCard
+                        img="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_08cbb05caf3271616f7fef03768dfbf5/fusion-360.png" alt="Fusion 360 logo"
+                        aside="CAD design"
+                        text="Para qualquer projeto real, desde o design até verdadeiras maquinas"
+                        button='Explore F360'
+                        href='https://www.autodesk.com/products/fusion-360/overview'
+                    />
+                    <SmallCard
+                        img="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Ads_logo.svg/820px-Google_Ads_logo.svg.png"
+                        alt="Google Ads logo"
+                        colors={['rgb(250 191 0)', 'rgb(59 143 217)']}
+                        aside="Gere tráfego para seu site!"
+                        text='Google Ads é a maior ferramente de anúncios e trafego do mundo!'
+                        button='Saiba mais'
+                        href='https://ads.google.com/'
+                    />
+                    <SmallCard
+                        img="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png" alt="Aws logo"
+                        colors={['rgb(249 248 255)', 'rgb(249 248 255)']}
+                        aside='Get to the clouds!'
+                        text='AWS é a ferramente de cloud mais famosa do mundo, uma verdadeira toolkit'
+                        button='Saiba mais'
+                        href='https://aws.amazon.com/'
+                    />
                 </AstroGrid>
             </div>
 

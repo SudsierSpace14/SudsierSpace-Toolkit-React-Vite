@@ -9,9 +9,8 @@ export const Navbar = () => {
                     <p className='font-JetBrains text-[0.8em]'>Toolkit</p>
                 </Sud>
                 <ul className='md:flex gap-4 hidden'>
-                    <Item><a href="#">Works</a></Item>
-                    <Item><a href="#">Platforms</a></Item>
-                    <Item><a href="#">Talk with me</a></Item>
+                    <Item><a href="#">Portfolio</a></Item>
+                    <Item><a href="http://mgmdigital.com.br/contato">Contato</a></Item>
                 </ul>
             </div>
         </Nav>

@@ -25,9 +25,10 @@ export const StartCreating = () => {
                     SudsierSpace
                     <br />Toolkit
                 </h1>
-                <h1 className="font-JetBrains">Começe a criar!</h1>
-                <h2 className="max-w-2xl">Desde a ideia, construção e divulgação até o infinito!</h2>
-                <a data-get-started="" href="http://mgmdigital.com.br/contato" className="btn bg-orange-500 button-white text-[24px]">
+                <h1 className="font-JetBrains">Agora é com você</h1>
+                <h2 className="max-w-2xl">Entre em contato conosco e papo reto para crescer ou criar sua ideia ou negócio</h2>
+                <p className='bg-green-500 px-4 py-2 rounded-2xl mt-5 mb-32 md:mb-0 z-10'>% Aproveita que estamos começando e negocie com ótimos preços</p>
+                <a data-get-started="" href="http://mgmdigital.com.br/contato" className="btn bg-orange-500 button-white text-[24px] hover:scale-125 hover:-rotate-6">
                     Let's go!
                 </a>
             </div>

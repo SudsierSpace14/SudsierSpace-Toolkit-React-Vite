@@ -49,7 +49,8 @@ export const Blur = styled.img`
 
 export const BackgroundSpace = styled.div`
     background-position: center;
-    background-image: url('https://th.bing.com/th/id/OIG.8jZ59vVuwKZz_LVGz9yC?pid=ImgGn');
+    background-size: cover;
+    background-image: url('https://th.bing.com/th/id/OIG.IjjBCRNQcx0tJkVpy8UY?pid=ImgGn');
     opacity: .2;
     z-index: 0;
 `

@@ -81,20 +81,6 @@ export const FeaturesSection = () => {
             </h1>
             <div className='container mt-10 px-10 lg:px-0'>
                 <AstroGrid className='grid min-w-0 max-w-screen-xl grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3'>
-                    <div className='sm:col-span-2'>
-                        <PythonCard />
-                    </div>
-                    <NodejsCard />
-                    <NextJSCard />
-                    <div className="grid lg:col-span-2">
-                        <MongodbCard />
-                    </div>
-                    <ReactCard />
-                    <ExpressCard />
-                    <TailwindCard />
-                    <div className='grid sm:col-span-2 lg:col-span-3 bg-orange-500'>
-                        <ArduinoCard />
-                    </div>
                     <div className='grid sm:col-span-2 lg:col-span-3 bg-slate-600 p-4'>
                         <h1>Em breve</h1>
                     </div>
@@ -117,11 +103,28 @@ export const FeaturesSection = () => {
                     <SmallCard
                         img="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png" alt="Aws logo"
                         colors={['rgb(249 248 255)', 'rgb(249 248 255)']}
-                        aside='Get to the clouds!'
+                        aside='Chegue às nuvens!'
                         text='AWS é a ferramente de cloud mais famosa do mundo, uma verdadeira toolkit'
                         button='Saiba mais'
                         href='https://aws.amazon.com/'
                     />
+                    <div className='grid sm:col-span-2 lg:col-span-3 bg-slate-600 p-4 mt-10'>
+                        <h1>Serviços de programação</h1>
+                    </div>
+                    <div className='sm:col-span-2'>
+                        <PythonCard />
+                    </div>
+                    <NodejsCard />
+                    <NextJSCard />
+                    <div className="grid lg:col-span-2">
+                        <MongodbCard />
+                    </div>
+                    <ReactCard />
+                    <ExpressCard />
+                    <TailwindCard />
+                    <div className='grid sm:col-span-2 lg:col-span-3 bg-orange-500'>
+                        <ArduinoCard />
+                    </div>
                 </AstroGrid>
             </div>
 
